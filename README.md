@@ -2,7 +2,7 @@
 
 A full-stack **MERN** (MongoDB, Express, React, Node.js) application for managing books with complete CRUD operations.
 
-![MERN Stack](https://img.shields.io/badge/MERN-Stack-green) ![License](https://img.shields.io/badge/License-ISC-blue)
+![MERN Stack](https://img.shields.io/badge/MERN-Stack-green)
 
 ## Features
 
@@ -98,7 +98,3 @@ Book-Store-MERN-Stack/
 
 - **Database Connection Error**: If you see `ENOTFOUND` or connection timeout errors, ensure your `MONGODB_URL` in `.env` is correct and your IP address is whitelisted in MongoDB Atlas.
 - **CORS Errors**: If the frontend cannot access the backend, ensure CORS is correctly configured in `backend/index.js` to allow the frontend's origin.
-
-## License
-
-This project is licensed under the ISC License.
